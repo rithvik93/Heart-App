@@ -11,7 +11,7 @@ import pdf
 def preprocess(age,sex,cp,trestbps,restecg,chol,fbs,thalach,exang,oldpeak,slope,ca,thal,val,name ): 
     
             # Pre-processing user input
-    loaded_model = pickle.load(open('C:/Users/RITHVIK/Desktop/final/heart_disease_model.sav', 'rb'))
+    loaded_model = pickle.load(open('heart_disease_model.sav', 'rb'))
     if sex=="male":
         sex=1 
     else: 
