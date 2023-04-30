@@ -6,7 +6,7 @@ def create_pdf(inputs):
     pdf.add_page()
 
     # Add image as background
-    pdf.image('back.jpg', x=0, y=0, w=pdf.w, h=pdf.h)
+    pdf.image('back.jpeg', x=0, y=0, w=pdf.w, h=pdf.h)
     # font and color
     pdf.set_font("Arial","BUI", 23)
     pdf.set_text_color(255,255,255)
